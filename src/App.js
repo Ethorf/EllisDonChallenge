@@ -5,8 +5,12 @@ import Nav from './components/Nav/Nav'
 import Workflow from './pages/workflow'
 import Main from './pages/main'
 
+// import application components
+import Expression from './Expression/Expression';
+
 function App() {
   return (
+<<<<<<< HEAD
     <div className="App">
       <BrowserRouter>
         <Nav/>
@@ -16,6 +20,9 @@ function App() {
           </Switch>
       </BrowserRouter>
     </div>
+=======
+      <Expression />
+>>>>>>> develop
   );
 }
 
