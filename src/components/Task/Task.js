@@ -2,9 +2,6 @@ import React from 'react';
 import './Task.scss';
 
 class Task extends React.Component {
-	state = {
-		data: []
-	};
 
 	render() {
 		
