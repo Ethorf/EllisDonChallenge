@@ -1,0 +1,17 @@
+.task {
+  width: 30%;
+
+
+  &__description {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &__buttons {
+    margin-top: 20px;
+  }
+
+  &__button {
+    margin-right: 20px;
+  }
+}
