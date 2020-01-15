@@ -14,6 +14,7 @@ export default class Expression extends Component {
         return (
             <div className="expression__container">
                 <form className="expression__form" id="expressionCapture" onSubmit={this.handleClick}>
+                    <h2 className="expression__form-title">Please enter your variables below</h2>
                     <div className="expression__form-condition">
                         <label className="expression__condition-label" htmlFor="condition">Enter condition to test for</label>
                         <input className="expression__condition-field" type="text" name="name" id="testCondition"></input>
