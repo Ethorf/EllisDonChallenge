@@ -13,7 +13,7 @@ import Draggable, {DraggableCore} from 'react-draggable';
                     handle=".handle"
                     defaultPosition={{x: 0, y: 0}}
                     position={null}
-                    grid={[25, 25]}
+                    grid={[10, 10]}
                     scale={1}
                     onStart={this.handleStart}
                     onDrag={this.handleDrag}
