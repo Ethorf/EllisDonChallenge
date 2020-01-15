@@ -19,7 +19,7 @@ app.post('/expression', (req, res) => {
     let responseOut = `We processed this command:', ${varCommand}`;
      res.status(200).send(responseOut);
 })
-
+  
 function readExpression(req) { 
     let conditionTest = req.data.condition;
     let conditionTrue = req.data.ifTrue;

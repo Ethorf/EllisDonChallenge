@@ -5,7 +5,7 @@ import axios from 'axios';
 import './Expression.scss';
 
 export default class Expression extends Component {
-
+  
     handleClick(e) {
         e.preventDefault();
         let conditionTest = e.target.name.value;
