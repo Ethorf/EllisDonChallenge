@@ -1,0 +1,114 @@
+.expression {
+
+    &__container {
+    margin-left: 36px;
+    margin-right: 36px; 
+    }
+
+  &__intro {
+    font-size: 2rem;
+    margin-left: 23%;
+    margin-right: 23%;
+  }  
+
+  &__form {
+    font-size: 16px;
+    margin-left: 36px;
+    margin-right: 36px;
+  }
+
+  &__form-condition {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  &__condition-label {
+    font-size: larger;
+    float:left;
+    width: 50%;
+    text-align:right;
+    margin-right:15px;
+  }
+
+  &__condition-field {   
+    display: block;
+    box-sizing: border-box;
+    border: 1px black solid;
+    border-radius: 5px;
+    height: 25px;
+    font-size: large;
+    background-color: lightsteelblue;
+    margin-right: 30%;
+    float:left;
+    width:20%;
+  }
+  &__form-true {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+  }
+
+  &__true-label {
+    font-size: larger;
+    float:left;
+    width: 50%;
+    text-align:right;
+    margin-right:15px;
+
+  }
+
+  &__true-field {
+    box-sizing: border-box;
+    border: 1px black solid;
+    border-radius: 5px;
+    height: 25px;
+    width: 30%;
+    font-size: large;
+    background-color: lightsteelblue;
+    margin-right: 30%;
+    float:left;
+    width:20%;
+
+  }
+
+  &__form-false {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+  }
+
+  &__false-label {
+    font-size: larger;
+    float:left;
+    width: 50%;
+    text-align:right;
+    margin-right:15px;
+  }
+
+  &__false-field {
+    box-sizing: border-box;
+    border: 1px black solid;
+    border-radius: 5px;
+    height: 25px;
+    font-size: large;
+    background-color: lightsteelblue;
+    margin-right: 30%;
+    float:left;
+    width:20%;
+
+  }
+
+&__button {
+    width: 250px;
+    margin-left: 40%;
+    background-color: steelblue;
+    color: white;
+    font-size: 24px;
+    height: 3rem;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+}
