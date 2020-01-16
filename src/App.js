@@ -10,7 +10,6 @@ import Expression from './Expression/Expression';
 
 function App() {
   return (
-<<<<<<< HEAD
     <div className="App">
       <BrowserRouter>
         <Nav/>
@@ -18,11 +17,9 @@ function App() {
             <Route path="/" exact component={Main}/>
             <Route path="/workflow" exact component={Workflow}/>
           </Switch>
+        <Expression />
       </BrowserRouter>
     </div>
-=======
-      <Expression />
->>>>>>> develop
   );
 }
 
