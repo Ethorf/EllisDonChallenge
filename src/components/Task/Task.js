@@ -1,21 +1,24 @@
 import React from 'react';
-import '../../styles/Task';
+import '../../styles/Task.scss';
 
 class Task extends React.Component {
 
 	render() {
-		
+
+    const {
+      project,
+      action,
+      budget
+    } = this.props.task;
 
 		return (
-			<div className='task'>
-        <h1 className='task__title'>Task</h1>
-        <p className='task__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate vitae incidunt ex nemo hic laborum veniam rem eius, vel aperiam tempora est corporis repudiandae, distinctio atque saepe fugiat officia.</p>
-        <div className='task__buttons'>
-          <button className='task__button'>Accept</button>
-          <button className='task__button'>Decline</button>
-          <button className='task__button'>Details</button>
+				<div className='approve'>
+          <h3>Project: {project}</h3>
+          <h3>Action: {action}</h3>
+          <p className='approve__details'>Budget: {budget}</p>
+          <button>Accept</button>
+          <button>Decline</button>
         </div>
-      </div>
 		);
 	}
 }
