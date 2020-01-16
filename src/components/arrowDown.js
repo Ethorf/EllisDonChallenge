@@ -4,15 +4,12 @@ import '../styles/workflow.scss'
 import { Rnd } from "react-rnd";
 import arrowDownPng from "../assets/arrowDown.png"
 
-
-
-
  export default class ArrowDown extends React.Component {
     state={
         width: 15,
         height: 80,
-        x: 130,
-        y: 400
+        x: -43,
+        y: 200
     }
     render(){
         return (
@@ -32,7 +29,6 @@ import arrowDownPng from "../assets/arrowDown.png"
                         });
                         }}
                     >
-                    <img className="arrowDownImg" src={arrowDownPng} alt="arrow Down"></img>
                     </Rnd>
             </>
             );
