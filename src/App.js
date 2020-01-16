@@ -8,9 +8,13 @@ import Main from './pages/main'
 // import application components
 import Expression from './Expression/Expression';
 
+
 function App() {
   return (
     <div className="App">
+
+        <Workflow />
+
       <BrowserRouter>
         <Nav/>
           <Switch>
@@ -19,6 +23,7 @@ function App() {
           </Switch>
         <Expression />
       </BrowserRouter>
+
     </div>
   );
 }
