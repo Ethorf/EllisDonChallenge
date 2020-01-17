@@ -13,9 +13,9 @@ class Task extends React.Component {
 
 		return (
 				<div className='approve'>
-          <h3>Project: {project}</h3>
-          <h3>Action: {action}</h3>
-          <p className='approve__details'>Budget: {budget}</p>
+          <h3>Project</h3>
+          <h3>Action:</h3>
+          <p className='approve__details'>Budget:</p>
           <button>Accept</button>
           <button>Decline</button>
         </div>

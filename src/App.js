@@ -17,7 +17,6 @@ function App() {
             <Route path="/" exact component={Main}/>
             <Route path="/workflow" exact component={Workflow}/>
           </Switch>
-        <Expression />
       </BrowserRouter>
     </div>
   );
