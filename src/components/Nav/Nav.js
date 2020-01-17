@@ -7,6 +7,7 @@ export default class Sidebar extends React.Component {
     return (
       <div className="nav">
         <p>EllisDon</p>
+        <p>Expression / User Task</p>
         <p>WorkFlow</p>
       </div>
     );
