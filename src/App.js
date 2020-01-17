@@ -8,9 +8,13 @@ import Main from './pages/main'
 // import application components
 import Expression from './Expression/Expression';
 
+
 function App() {
   return (
     <div className="App">
+
+        <Workflow />
+
       <BrowserRouter>
         <Nav/>
           <Switch>
@@ -18,6 +22,7 @@ function App() {
             <Route path="/workflow" exact component={Workflow}/>
           </Switch>
       </BrowserRouter>
+
     </div>
   );
 }
